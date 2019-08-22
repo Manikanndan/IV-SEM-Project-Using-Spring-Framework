@@ -1,0 +1,58 @@
+.Adminnav
+{
+    position:absolute;
+    height: 50px;
+    width: 250px;
+    margin-left: 50px;
+}
+.Adminnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Adminnav li {
+    float: left;
+}
+
+.Adminnav li a {
+	color:rgba(255,0,0,1);
+    display: block;
+    padding: 8px;
+    background-color: #ccc;
+    text-decoration: none;
+}
+.controlls
+{
+    position:absolute;
+    height:625px;
+    width:900px;
+    margin-top: 30px;
+    background-color: rgba(255, 255,255,1);
+}
+.controlls table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.controlls  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px 0px 10px 20px;
+}
+.controlls  td
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px 50px 15px 10px;
+}
+
+.controlls tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.controlls table th {
+  background-color: black;
+  color: white;
+}

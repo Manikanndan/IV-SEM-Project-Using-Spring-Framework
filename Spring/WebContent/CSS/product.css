@@ -1,0 +1,73 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+   
+    text-decoration: none;
+}
+.controlls
+{
+    position:absolute;
+    height:625px;
+    width:800px;
+    margin-top: 30px;
+    background-color: rgba(255, 255,255,1);
+}
+
+.controlls label
+{
+    position: absolute;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    color:rgb(26, 59, 109);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.controlls input[type="text"], select
+{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 40px;
+    width: 40%;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.controlls input[type="submit"]
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 580px;
+    height: 40px;
+    width: 60%;
+    font-size: 20px;
+    font-family: "Times New Roman";    
+    background-color: rgba(0, 145, 36,0.9);
+    border: none;
+    color:rgba(255,255,255,1);
+    cursor: pointer;
+}
+.controlls input[type=text]:focus, select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.controlls input[type="submit"]:hover {
+  opacity: 1;
+}
+.controlls input[type="file"]
+{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 90px;
+}

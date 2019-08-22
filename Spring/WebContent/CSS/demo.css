@@ -1,0 +1,27 @@
+.creditCardForm
+{
+	margin-top:40px;
+	width:900px;
+}
+
+#owner
+{
+	width:370px;
+	opacity:0.5%;	
+}
+
+#cvv
+{
+	
+	width:200px;
+}
+#cardNumber
+{
+	
+	width:590px;
+}
+#expiration-date
+{
+	margin-top:20px;
+	width:200px;
+}
